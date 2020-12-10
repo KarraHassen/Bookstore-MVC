@@ -45,15 +45,6 @@ class BookControllerTest {
 	private MockMvc mockmvc;
 	private BookController bookcon;
 
-
-	@BeforeAll
-	static void setUpBeforeClass() throws Exception {
-	}
-
-	@AfterAll
-	static void tearDownAfterClass() throws Exception {
-	}
-
 	@BeforeEach
 	void setUp() throws Exception {		
 		 MockitoAnnotations.initMocks(this);			
